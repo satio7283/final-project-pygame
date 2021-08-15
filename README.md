@@ -17,7 +17,7 @@ def wight ():
 def green ():
     pygame.draw.rect(window, GREEN, (x, y, width, hight))
     pygame.display.update()
-# the function that draw the background
+### the function that draw the background
 def make_squar():
     global x
     x=0

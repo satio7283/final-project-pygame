@@ -81,17 +81,17 @@ def movement2():
 
     pygame.display.update()
 
-#define pygame and other variables
+### define pygame and other variables
 
 import pygame
 pygame.init()
 window=pygame.display.set_mode((720,720))
-#image = pygame.transform.scale(image, (desired_width,desired_height))
+### image = pygame.transform.scale(image, (desired_width,desired_height))
 mouse= pygame.image.load("mouse.png")
 pygame.display.set_caption("mouse&cat")
 icon=pygame.image.load("mouse.png")
 pygame.display.set_icon(icon)
-#set the mouse to a small size
+### set the mouse to a small size
 mouse=pygame.transform.scale(mouse,(60,60))
 xm = 0 # x for mouse only
 ym =0 # y for mouse only
@@ -112,7 +112,7 @@ def cat():
     cat_pic=pygame.image.load("cat.jpg")
     cat_pic = pygame.transform.scale(cat_pic, (97,97))
     window.blit(cat_pic, (i, j))
-#the start or running code
+### the start or running code
 pygame.display.update()
 
 while True:
